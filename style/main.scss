@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  #field {
+    width: 50%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .fieldButton {
+      background: #cfd;
+      border: 2px solid black;
+      padding-top: 100%; //aspect-ratio 1:1
+    }
+  }
+}

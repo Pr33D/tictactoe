@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.wrapper #field {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.wrapper #field .fieldButton {
+  background: #cfd;
+  border: 2px solid black;
+  padding-top: 100%;
+}/*# sourceMappingURL=main.css.map */
