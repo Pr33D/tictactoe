@@ -11,6 +11,6 @@ const Gameboard = (() => {
 
 const playGame = (() => {})();
 
-const Player = (name, xo) => {
-  return { name, xo };
+const Player = (name, figure) => {
+  return { name, figure };
 };
